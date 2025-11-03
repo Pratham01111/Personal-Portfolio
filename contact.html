@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact — Prathamflix</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="profilelogo.png" />
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+
+  <body>
+    <!-- Header (same structure as before) -->
+    <div id="header">
+      <h1 id="title">Prathamflix</h1>
+    </div>
+
+    <main class="container">
+      <section class="intro">
+        <img class="avatar" src="profilelogo.png" alt="Pratham avatar" />
+        <div>
+          <h2>Let's talk</h2>
+          <p>I'm open to internships, collabs, and ideas. Reach out below!</p>
+        </div>
+      </section>
+
+      <section class="card">
+        <ul class="list">
+          <li class="item">
+            <span class="icon">📱</span>
+            <div class="info">
+              <span class="label">Mobile</span>
+              <a class="value" href="tel:+13124839353">+1 (312) 483-9353</a>
+            </div>
+          </li>
+
+          <li class="item">
+            <span class="icon">✉️</span>
+            <div class="info">
+              <span class="label">Email</span>
+              <a class="value" href="mailto:pbahu@uic.edu">pbahu@uic.edu</a>
+            </div>
+          </li>
+
+          <li class="item">
+            <span class="icon">💼</span>
+            <div class="info">
+              <span class="label">LinkedIn</span>
+              <a class="value" href="https://www.linkedin.com/in/prathambahu" target="_blank">linkedin.com/in/prathambahu</a>
+            </div>
+          </li>
+
+          <li class="item">
+            <span class="icon">🐙</span>
+            <div class="info">
+              <span class="label">GitHub</span>
+              <a class="value" href="https://github.com/Pratham01111" target="_blank">github.com/Pratham01111</a>
+            </div>
+          </li>
+        </ul>
+
+        <div class="buttons">
+          <a class="btn" href="mailto:pbahu@uic.edu">Email Me</a>
+          <a class="btn btn-outline" href="index.html">Back Home</a>
+        </div>
+      </section>
+
+      <p class="foot">© <span id="year"></span> Pratham Bahuguna</p>
+    </main>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
